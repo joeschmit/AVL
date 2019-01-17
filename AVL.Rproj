@@ -11,3 +11,6 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+library(ggplot2)
+ggplot2(x = SolidRate, y = Velocity) + geom_point()
